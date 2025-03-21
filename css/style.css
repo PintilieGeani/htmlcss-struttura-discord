@@ -100,13 +100,14 @@ div{
 /* Banner */
 .banner{
     /* debug */
-    /* height: 400px; */
-    padding: 50px 20% ;
+    padding: 50px;
+    justify-content: center;
 }
 
 .banner-content{
 
     background-color: rgb(248, 104, 128);
+    width: 800px;
 }
 
 /* Fine banner */
