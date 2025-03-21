@@ -1,0 +1,48 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utils */
+.container{
+    max-width: 1000px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bg-grey{
+    background-color: rgb(211, 211, 211);
+}
+
+div{
+    border: 1px dotted black;
+}
+
+.flex{
+    display: flex;
+}
+
+.margin{
+    margin: 20px;
+}
+
+/* Header */
+.header{
+    background-color: rgb(127, 255, 212);
+    height: 200px;
+}
+
+.menu{
+    height: 100px;
+}
+.logo{
+    width: 20%;
+}
+.lista{
+    width: 60%;
+}
+.login{
+    width: 20%;
+}
