@@ -18,18 +18,15 @@ hr{
 .bg-grey{
     background-color: rgb(211, 211, 211);
 }
-
 .bg-arancione{
     background-color: rgb(255, 165, 0);
 }
 .bg-blue{
     background-color: rgb(0, 0, 255);
 }
-
 div{
     border: 1px dotted rgb(0, 0, 0);
 }
-
 .flex{
     display: flex;
 }
@@ -41,7 +38,6 @@ div{
     height: 100px;
     padding: 35px 0px
 }
-
 .menu{
     line-height: 30px;
 }
@@ -71,3 +67,13 @@ div{
 /* Fine Header */
 
 /* Banner */
+.banner{
+    /* debug */
+    /* height: 400px; */
+    padding: 50px 20% ;
+}
+
+.banner-content{
+    height: 300px;
+    background-color: pink;
+}
