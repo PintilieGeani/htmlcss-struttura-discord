@@ -12,37 +12,62 @@
     margin: 0 auto;
 }
 
+hr{
+    border: 1px solid lightblue;
+}
 .bg-grey{
     background-color: rgb(211, 211, 211);
 }
 
+.bg-arancione{
+    background-color: rgb(255, 165, 0);
+}
+.bg-blue{
+    background-color: rgb(0, 0, 255);
+}
+
 div{
-    border: 1px dotted black;
+    border: 1px dotted rgb(0, 0, 0);
 }
 
 .flex{
     display: flex;
 }
 
-.margin{
-    margin: 20px;
-}
 
 /* Header */
 .header{
     background-color: rgb(127, 255, 212);
-    height: 200px;
+    height: 100px;
+    padding: 35px 0px
 }
 
 .menu{
-    height: 100px;
+    line-height: 30px;
 }
 .logo{
     width: 20%;
+    justify-content: flex-start;
+    align-items: center;
 }
 .lista{
     width: 60%;
+    align-items: center;
+    justify-content: center;
 }
 .login{
     width: 20%;
+    justify-content: flex-end;
+    align-items: center;
 }
+.lista ul{
+    display: flex;
+    list-style: none;
+}
+.lista ul li{
+    margin: 0 10px;
+}
+
+/* Fine Header */
+
+/* Banner */
